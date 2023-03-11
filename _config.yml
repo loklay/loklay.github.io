@@ -1,0 +1,11 @@
+# Jekyll Configuration
+
+# Site Settings
+url: ""
+website_url: "https://notes.ayushsharma.in/"
+title: ayush sharma's notes ☕ + ? + ?️
+email: ayush@ayushsharma.in
+images-path: /static/images/
+videos-path: /static/videos/
+js-path: /static/js/
+baseurl: "" # the subpath of your site, e.g. /blog
