@@ -56,7 +56,7 @@
                 {% if sameTagCount >= minCommonTags %}
                     <div class="col-md-12 mb-3">
                         <div class="app-cover p-2 shadow-md bg-white">
-                        <a href="single.html">
+                        <a href="{{post.url}}">
                             <div class="row">
                                     <div class="img-cover pe-0 col-3"> <img class="rounded" src="{{post.thumbnail}}" alt=""></div>
                                     <div class="det mt-2 col-9">
