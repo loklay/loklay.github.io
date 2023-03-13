@@ -21,7 +21,7 @@
         </div>
         <div id="navbarNav" class="navcol pt-0 d-none d-lg-block">
             <ul>
-                <li class="border-bottom"><a href="/" {% if page.url == "/" %}style="color: red;"{% endif %}></a><i class="bi  bi-house-door fs-6 me-2"></i>ཁྱིམ་།</a></li>
+                <li class="border-bottom"><a href="{{base.url}}/index.html" {% if page.url == "{{base.url}}/index.html" %}style="color: red;"{% endif %}></a><i class="bi  bi-house-door fs-6 me-2"></i>ཁྱིམ་།</a></li>
                 <li class="border-bottom"><a href="{{base.url}}/security-application.html" {% if page.url == "{{base.url}}/security-application.html" %}style="color: red;"{% endif %}><i class="bi fs-6 me-2 bi-window-stack"></i> <i class="bi fs-6  bi-google-play"></i>སྣང་བརྙན་སྒེར་གྱི་ལག་ཅ།</a></li>
                 <li class="border-bottom"><a href="{{base.url}}/other-application.html" {% if page.url == "{{base.url}}/other-application.html" %}style="color: red;"{% endif %}><i class="bi me-2 fs-6  bi-controller"></i>མཉེན་ཆས་གཞན།</a></li>
             </ul>
