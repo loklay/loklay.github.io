@@ -4,11 +4,12 @@ title: Mozilla Thunderbird
 category: other-application
 publisher: Mozilla
 downloads: 10K+
-rating: 4.6
-tags: mail, securemail
+rating: 4.1
+tags: mail, securemail, fileencryption
 thumbnail: /assets/images/apps/thunderbird.png
 mac: 'assets/files/mac/Thunderbird%20102.0.3'
 windows: 'assets/files/mac/Thunderbird%20102.0.3'
 ---
 
-Every day Voice of Tibet broadcasts a 30 minutes news service in the Tibetan language and a 15 minutes news service in Mandarin Chinese. The programs are produced by Tibetan journalists stationed in several Thunderbird is a free and open source email, newsfeed, chat, and calendaring client, that’s easy to set up and customize. One of the core principles of Thunderbird is the use and promotion of open standards - this focus is a rejection of our world of closed platforms and services that can’t communicate with each other. We want our users to have freedom and choice in how they communicate.
+
+Mozilla Thunderbird ནི་གློག་འཕྲིན་ཡིག་ཟམ་གྱི་ཞབས་ཞུ་ཞིག་ཡིན་ལ། དེས་འཛད་སྤྱོད་པར་ཡིག་ཟམ་གཏོང་ལེན་དང་དེ་འབྲེལ་གྱི་བྱེད་ལས་རིགས་སྟངས་འཛིན་བྱེད་དུ་འཇུག་གི་ཡོད་པ་མ་ཟད། དྲ་རྒྱའི་འབྲེལ་མཐུད་བརྟན་པོ་ཉར་བྱེད་ཀྱི་TLS/SSL ཚད་ལྡན་གྱི་འཕྲུལ་ཆས་དེ་IMAP དང་ SMTP་དྲ་བའི་ཞབས་ཞུ་ལ་མཐུད་པའི་བདེ་འཇགས་ཀྱི་ཁྱད་ཆོས་དེ་མཁོ་སྤྲོད་བྱེད་ཀྱི་ཡོད། Mozilla Thunderbird དེ། ནད་འབུ་དང་། དྲ་ཐོག་ཏུ་མགོ་སྐོར་གཏོང་བའི་ཉྭ་འཛིན་གྱི་ཐབས་ལམ། གད་སྙིགས་ཡིག་ཟམ་སོགས་བཀག་འགོག་བྱེད་པར་དམིགས་ཏེ་འཆར་འགོད་བྱས་ཡོད། ཡིག་ཟམ་གཏོང་ལེན་རིགས་གློག་རྡུལ་གྱི་རྣམ་པའི་ཐོག་ནས་མིང་ཐོ་བཀོད་ཡོད་པས། ཡིག་ཟམ་གཏོང་མཁན་དང་གཏང་ཡུལ་གཉིས་ཀའི་ངོ་བོ་བདེན་དཔང་བྱེད་ཀྱི་ཡོད། གསང་སྡོམ་གྱི་ཁྱད་ཆོས་ཡོད་པས།ཡིག་ཟམ་གཏོང་ལེན་གྱི་གོ་རིམ་ཁྲོད་དུ། གང་ཟག་གསུམ་པས།ཁྱེད་ཀྱི་ཡིག་ཟམ་ཀློག་པ་དང་འགྱུར་བ་གཏོང་བ་སོགས་བྱེད་མི་ནུས་པའི་ཁག་ཐེག་བྱེད་ཀྱི་ཡོད། གང་ཟག་གཉིས་ཕན་ཚུན་བར་གྱི་ཡིག་ཟམ་ནང་གི་གསང་སྡོམ་གྱི་ཁྱད་ཆོས་ནུས་ཡོད་བཟོ་བར། ཁྱེད་ཀྱིས་Mozilla Thunderbird ནང་དུ། PGP གྲོས་མཐུན་ཟེར་བ་དེ་སྒྲིག་བཟོ་བྱེད་དགོས། Mozilla Thunderbird ནི་ཁུངས་འབྱེད་མཉེན་ཆས་ཤིག་ཡིན་ལ། དེ་ཉེར་སྤྱོད་མ་ལག་སྣ་ཚོགས་ཀྱི་ནང་དུ་ལས་ཀ་བྱེད་ཐུབ་ཀྱི་ཡོད།

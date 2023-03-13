@@ -11,4 +11,5 @@ mac: 'assets/files/mac/VeraCrypt_1.25.9.dmg'
 windows: 'assets/files/win/VeraCrypt%20Setup%201.25.9.exe'
 ---
 
-སའེ་ཧྥོན་གྱིས་དྲ་རྒྱ་བེད་སྤྱོད་གཏོང་མཁན་ཚོར་བདེ་འཇགས་ངང་དྲ་རྒྱའི་བཀག་སྡོམ་གྱི་བཙན་རྫོང་གཏོར་བར་རོགས་འདེགས་བྱེད་ཀྱི་ཡོད། མཉེན་ཆས་དེས་ད་དུང་ཁྱེད་རང་སྐུད་མེད་དྲ་བར་མཐུད་དུས། ཁྱེད་རང་དྲ་རྒྱའི་དབར་དུ་གསང་བ་དང་བདེ་འཇགས་ཡིན་པའི་ཕུག་ལམ་ཞིག་བཟོས་ཏེ། ཁྱེད་རང་སྲུང་སྐྱོབ་བྱེད་ཀྱི་ཡོད།
+
+Veracrypt is a disk encryption tool for Windows, Mac OS, and Linux. You can use it to create a virtual encrypted disk, encrypt an entire partition, or encrypt your operating system so that no one will be able to access any of your files without the right authentication.

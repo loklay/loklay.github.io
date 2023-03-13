@@ -43,7 +43,12 @@
                 <h4 class="fw-semi fs-5">About this Application</h4>
                 <p class="fs-8 text-justify">
                 {{content}}
-
+                </p>
+            </div>
+            <div class="about row p-2 py-3 bg-white mt-4 shadow-sm">
+                <h4 class="fw-semi fs-5">Guide Documentation</h4>
+                <p class="fs-8 text-justify">
+                    <img class="w-100" src="{{page.guide}}" alt="">
                 </p>
             </div>
         </div>

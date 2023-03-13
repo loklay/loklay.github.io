@@ -16,10 +16,10 @@ layout: default
 
 <div class="section-container p-2 p-xl-4">
     <div class="row m-0">
-        <h4 class="fs-6 fw-bolder my-3 mt-2 mb-4">མཉེན་ཆས་གཞན།<a class="float-end text-primary text-decoration-underline" href="{{site.baseurl}}/other-application.html"><small class="fs-8">View All</small></a></h4>
+        <h4 class="fs-6 fw-bolder my-3 mt-2 mb-4">སྣང་བརྙན་སྒེར་གྱི་ལག་ཅ།<a class="float-end text-primary text-decoration-underline" href="{{site.baseurl}}/security-application.html"><small class="fs-8">View All</small></a></h4>
         <!-- start of other application loop-->
-        {% for post in site.posts limit:8 %}
-        {% if post.category contains 'other-application' %}
+        {% for post in site.posts limit:13 %}
+        {% if post.category contains 'security-application' %}
         <div class="col-md-4 mb-3">
             <div class="app-cover p-2 shadow-md bg-white">
                 <a href="{{post.url}}">
@@ -47,8 +47,8 @@ layout: default
     <div class="row mt-2">
         <h4 class="fs-6 fw-bolder my-3 mt-2 mb-4">མཉེན་ཆས་གཞན།<a class="float-end text-primary text-decoration-underline" href="{{site.baseurl}}/other-application.html"><small class="fs-8">View All</small></a></h4>
         <!-- start of security application loop-->
-        {% for post in site.posts limit:13 %}
-        {% if post.category contains 'security-application' %}
+        {% for post in site.posts limit:8 %}
+        {% if post.category contains 'other-application' %}
         <div class="col-md-2 mb-3 col-6">
             <a href="{{post.url}}">
                 <div class="app-cover p-2 shadow-md bg-white">
