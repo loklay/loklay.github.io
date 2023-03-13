@@ -16,12 +16,11 @@
                             <b>{{page.rating}} <i class="bi bi-star-fill"></i></b>
                             <p>11.6k Reviews</p>
                         </div>
-                            <div class="col-md-4 col-6 text-center">
+                        <div class="col-md-4 col-6 text-center">
                             <b>{{page.downloads}}</b>
                             <p>Downloads</p>
                         </div>
                     </div>
-                    
                     <div class="auth pt-4">
                         <h6 class="text-primary fw-semi mb-0">GreatFire</h6>
                         <p class="fs-8">contains Ads</p>
@@ -35,10 +34,11 @@
 
                 </p>
             </div>
-    </div>
-    <div class="col-md-4">
-        <h4 class="fs-6 fw-bolder my-3 mt-2 mb-3">Related Apps</h4>
-             {% assign maxRelated = 5 %}
+        </div>
+        <div class="col-md-4">
+            <h4 class="fs-6 fw-bolder my-3 mt-2 mb-3">Related Apps</h4>
+            <!-- related posts start -->
+            {% assign maxRelated = 5 %}
             {% assign minCommonTags =  1 %}
             {% assign maxRelatedCounter = 0 %}
             {% for post in site.posts %}
@@ -56,31 +56,32 @@
                 {% if sameTagCount >= minCommonTags %}
                     <div class="col-md-12 mb-3">
                         <div class="app-cover p-2 shadow-md bg-white">
-                        <a href="{{post.url}}">
+                            <a href="{{post.url}}">
                             <div class="row">
-                                    <div class="img-cover pe-0 col-3"> <img class="rounded" src="{{post.thumbnail}}" alt=""></div>
-                                    <div class="det mt-2 col-9">
-                                        <h5 class="mb-0 fs-6">{{post.title}}</h5>
-                                        <span class="fs-8">{{post.category}}</span>
-                                        <ul class="row">
-                                            <li class="col-8 ratfac">
-                                                <b>{{post.rating}} <i class="bi bi-star-fill"></i></b>
-                                            </li>
-                                            <li class="col-4"><span class="text-success float-end">Free</span></li>
-                                        </ul>
-                                    </div>
+                                <div class="img-cover pe-0 col-3"> 
+                                    <img class="rounded" src="{{post.thumbnail}}" alt="">
+                                </div>
+                                <div class="det mt-2 col-9">
+                                    <h5 class="mb-0 fs-6">{{post.title}}</h5>
+                                    <span class="fs-8">{{post.category}}</span>
+                                    <ul class="row">
+                                        <li class="col-8 ratfac">
+                                            <b>{{post.rating}} <i class="bi bi-star-fill"></i></b>
+                                        </li>
+                                        <li class="col-4"><span class="text-success float-end">Free</span></li>
+                                    </ul>
+                                </div>
                             </div>
-                        </a>
+                            </a>
+                        </div>
                     </div>
-                </div>
-                        {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
-                        {% if maxRelatedCounter >= maxRelated %}
-                            {% break %}
-                        {% endif %}
+                    {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
+                    {% if maxRelatedCounter >= maxRelated %}
+                        {% break %}
+                    {% endif %}
                     {% endif %}
                 {% endfor %}
-                <!-- Adds related posts to the end of an article -->
-
+                <!-- related posts end -->
+        </div>
     </div>
-
 </div>

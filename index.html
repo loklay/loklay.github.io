@@ -37,7 +37,7 @@ layout: default
         <!-- start of security application loop-->
         {% for post in site.posts limit:13 %}
         {% if post.category contains 'security-application' %}
-        <div class="col-md-2 mb-3">
+        <div class="col-md-2 mb-3 col-6">
             <a href="{{post.url}}">
                 <div class="app-cover p-2 shadow-md bg-white">
                     <div class="img-cover"> <img class="rounded" src="{{site.baseurl}}{{post.thumbnail}}" alt=""></div>

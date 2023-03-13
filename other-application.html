@@ -1,42 +1,36 @@
 ---
 layout: default
 ---
-           <div class="section-container p-2 p-xl-4">
-               
-               <div class="row mt-2">
-               <h4 class="fs-6 fw-bolder my-4">སྣང་བརྙན་སྒེར་གྱི་ལག་ཅ།</h4>
-               <div class="row mt-2">
-                   <!-- start of security application loop-->
-                   {% for post in site.posts %}
-                   {% if post.category contains 'other-application' %}
-                   <div class="col-md-2 mb-3">
-                       <a href="{{post.url}}">
-                           <div class="app-cover p-2 shadow-md bg-white">
-                               <div class="img-cover"> <img class="rounded" src="{{site.baseurl}}{{post.thumbnail}}" alt=""></div>
-                               <div class="det mt-2">
-                                   <h5 class="mb-1 fs-6">{{post.title}}</h5>
-                                   <ul class="row">
-                                       <li class="col-8 ratfac">
-                                       <b>{{post.rating}} <i class="bi text-warning bi-star-fill"></i></b>
-                                       </li>
-                                       <li class="col-4"><span class="text-success float-end">Free</span></li>
-                                   </ul>
-                               </div>
-                           </div>
-                       </a>
-                   </div>
-                   {% endif%}
-                   {% endfor %}
-           
-                   <!-- end of security application loop-->
-               </div>       
-                 
-               
-            </div>
-           </div>
+    <div class="section-container p-2 p-xl-4">
+        <div class="row mt-2">
+            <h4 class="fs-6 fw-bolder my-4">སྣང་བརྙན་སྒེར་གྱི་ལག་ཅ།</h4>
+            <div class="row mt-2">
+                <!-- start of security application loop-->
+                {% for post in site.posts %}
+                {% if post.category contains 'other-application' %}
+                <div class="col-md-2 mb-3 col-6">
+                    <a href="{{post.url}}">
+                        <div class="app-cover p-2 shadow-md bg-white">
+                            <div class="img-cover"> <img class="rounded" src="{{site.baseurl}}{{post.thumbnail}}" alt=""></div>
+                            <div class="det mt-2">
+                                <h5 class="mb-1 fs-6">{{post.title}}</h5>
+                                <ul class="row">
+                                    <li class="col-8 ratfac">
+                                    <b>{{post.rating}} <i class="bi text-warning bi-star-fill"></i></b>
+                                    </li>
+                                    <li class="col-4"><span class="text-success float-end">Free</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                {% endif%}
+                {% endfor %}
+                <!-- end of security application loop-->
+            </div>       
         </div>
-    <body>
-</body>
+    </div>
+</div>
 
 <script src="assets/js/jquery-3.2.1.min.js"></script>
 <script src="assets/js/popper.min.js"></script>
