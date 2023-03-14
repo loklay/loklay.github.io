@@ -23,6 +23,7 @@
                     <a href="{{page.apk}}" download>
                         <button class="btn btn-primary w-45 fw-semi fs-8 py-2 me-3"> ཨན་ཌོ་ནང་དུ་ཕབ་ལེན།</button>
                     </a>
+
                     <div class="row pt-4">
                         <div class="col-md-4 col-6 text-center">
                             <b>{{page.rating}} <i class="bi bi-star-fill"></i></b>
