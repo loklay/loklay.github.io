@@ -2,9 +2,9 @@
 
 # Site Settings
 url: ""
-website_url: "https://notes.ayushsharma.in/"
-title: ayush sharma's notes ☕ + ? + ?️
-email: ayush@ayushsharma.in
+website_url: "https://s3.amazonaws.com/loklad.com/"
+title: Loklad ☕ + ? + ?️
+email: 
 images-path: /static/images/
 videos-path: /static/videos/
 js-path: /static/js/
